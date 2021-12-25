@@ -1,0 +1,11 @@
+.MuiTypography-body1 {
+    color: black;
+}
+.filter-block {
+    display: flex;
+    height: 50px;
+    margin-top: 50px;
+    /* background-color: black; */
+    width: 250px;
+    box-shadow: (2px, 2px);
+}

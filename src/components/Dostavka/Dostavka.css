@@ -1,0 +1,11 @@
+.dost_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dost_block {
+    width: 300px;
+    margin-right: 50px;
+}
+.dost_block p {
+    font-size: 24px;
+}

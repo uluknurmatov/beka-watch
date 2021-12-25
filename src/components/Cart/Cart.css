@@ -1,0 +1,117 @@
+.cart__container {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    color: black;
+    padding-top: 125px;
+}
+.cart__container span {
+    color: black;
+}
+.cart__items {
+    margin: 30px auto;
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    color: black;
+}
+.cart__items span {
+    color: black;
+}
+
+.cart__element {
+    border: 1px black solid;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart__image {
+    object-fit: contain;
+    height: 70px;
+    width: 10vw;
+}
+
+.cart__element span {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.cart__element span::before {
+    content: "|";
+    margin-right: 5px;
+}
+.cart__element span::after {
+    content: "|";
+    margin-left: 5px;
+}
+
+.cart__total-price {
+    margin-top: 20px;
+}
+
+.cart__shoes-count {
+    width: 70px;
+    font-size: 20px;
+    color: black;
+}
+
+.cart__delete-btn {
+    color: red;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.cart__delete-btn:hover {
+    color: rgb(14, 11, 11);
+}
+
+.cart__order-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.cart__order-btn:hover {
+    background-color: rgb(58, 54, 54);
+}
+
+@media all and (max-width: 1024px) {
+    .cart__container {
+        width: 118%;
+    }
+}
+@media all and (max-width: 768px) {
+    .cart__container {
+        width: 157%;
+    }
+}
+@media all and (max-width: 414px) {
+    .cart__container {
+        width: 295%;
+    }
+}
+@media all and (max-width: 360px) {
+    .cart__container {
+        width: 335%;
+    }
+}

@@ -1,0 +1,126 @@
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: 45%;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 1440px;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.welcome {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+}
+.btn-welcome {
+    width: 175px;
+    height: 50px;
+    border-style: none;
+    border-radius: 25px;
+
+    background: linear-gradient(90deg, #93291e 0, #e32119 51%, #e32119);
+    font-size: 24px;
+}
+@media all and (max-width: 1024px) {
+    .video {
+        width: 121%;
+    }
+    .footer {
+        width: 121%;
+    }
+}
+@media all and (max-width: 800px) {
+    .video {
+        width: 161%;
+    }
+    .footer {
+        width: 161%;
+    }
+}
+@media all and (max-width: 768px) {
+    .video {
+        width: 161%;
+    }
+    .footer {
+        width: 161%;
+    }
+}
+@media all and (max-width: 700px) {
+    .video {
+        width: 232%;
+    }
+    .footer {
+        width: 232%;
+    }
+}
+@media all and (max-width: 540px) {
+    .video {
+        width: 232%;
+    }
+    .footer {
+        width: 232%;
+    }
+}
+@media all and (max-width: 414px) {
+    .video {
+        width: 306%;
+        height: 520px;
+    }
+    .footer {
+        width: 306%;
+    }
+}
+@media all and (max-width: 375px) {
+    .video {
+        width: 352%;
+        height: 520px;
+    }
+    .footer {
+        width: 352%;
+    }
+}
+@media all and (max-width: 360px) {
+    .video {
+        width: 352%;
+        height: 520px;
+    }
+    .footer {
+        width: 352%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .video {
+        width: 400%;
+        height: 520px;
+    }
+    .footer {
+        width: 400%;
+    }
+}
+@media all and (max-width: 280px) {
+    .video {
+        width: 460%;
+    }
+    .footer {
+        width: 460%;
+    }
+    .navbar {
+        width: 90%;
+    }
+}

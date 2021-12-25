@@ -1,0 +1,47 @@
+.footer {
+    background: #000;
+    height: 250px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.footer_blog {
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: -80px; */
+}
+.footer_title_pay {
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer_title {
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+.footer_title_street {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+.footer_subblog {
+    margin-top: 50px;
+}
+.footer_subblog li {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 24px;
+    list-style: none;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer_subblog li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}

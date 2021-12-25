@@ -1,0 +1,23 @@
+h3 {
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+    font-size: 36px;
+}
+.categoties_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.blocks_categories {
+    margin-right: 25px;
+}
+.img_categories {
+    width: 370px;
+    height: 370px;
+}
+.title_categories {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}

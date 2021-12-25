@@ -1,0 +1,71 @@
+.det_wrapper {
+    padding-top: 100px;
+}
+.det_wrapper p {
+    color: black;
+}
+.det_wrapper a {
+    color: black;
+    text-decoration: none;
+}
+.det_title {
+    display: flex;
+}
+.icon_right {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.det_name {
+    margin-left: 20px;
+    font-weight: bold;
+}
+.det_welcome {
+    display: flex;
+    margin-top: 50px;
+}
+.det_left img {
+    width: 500px;
+}
+.det_left {
+    width: 500px;
+    background-color: #f8f8f8;
+    margin-right: 150px;
+}
+.det_brand {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.det_price {
+    font-size: 32px;
+}
+.btn-det {
+    background: linear-gradient(90deg, #93291e 0, #e32119 51%, #e32119);
+    font-size: 24px;
+    width: 300px;
+    height: 40px;
+    border-style: none;
+    margin-top: 100px;
+}
+.det_images {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.det_img {
+    width: 450px;
+    background-color: #f8f8f8;
+    margin-bottom: 50px;
+}
+
+.icon_deteils {
+    width: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+textarea {
+    color: black;
+}
